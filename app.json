@@ -21,10 +21,27 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ivanwake.tasklist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "build": {
+          "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+          },
+          "preview": {
+            "distribution": "internal"
+          },
+          "production": {}
+        },
+        "projectId": "4c76e91c-d036-4304-a570-b58a99aa0bee"
+      }
+    },
+    "owner": "ivanwake"
   }
 }
